@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Times - Online Magazine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #666;
+        }
+        section {
+            padding: 20px;
+        }
+        .featured {
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+        }
+        .featured h3 {
+            color: #333;
+        }
+        .topics {
+            display: flex;
+            gap: 20px;
+        }
+        .topic {
+            flex: 1;
+            background-color: white;
+            padding: 15px;
+            border: 1px solid #ccc;
+        }
+        .subscription {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+        }
+        input[type="email"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Daily Times</h1>
+        <p>Your source for the latest news & stories</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">World</a>
+        <a href="#">Technology</a>
+        <a href="#">Sports</a>
+        <a href="#">Entertainment</a>
+    </nav>
+
+    <section>
+        <div class="featured">
+            <h2>Featured Article</h2>
+            <h3>🌍 Global Climate Summit 2025</h3>
+            <p>World leaders gather to discuss urgent climate action and sustainable development goals.</p>
+        </div>
+
+        <div class="topics">
+            <div class="topic">
+                <h3>Technology</h3>
+                <p>AI innovations are reshaping industries worldwide.</p>
+            </div>
+            <div class="topic">
+                <h3>Sports</h3>
+                <p>India wins thrilling cricket series against Australia.</p>
+            </div>
+            <div class="topic">
+                <h3>Entertainment</h3>
+                <p>New blockbuster movie breaks box office records.</p>
+            </div>
+        </div>
+
+        <div class="subscription">
+            <h2>Subscribe to Our Magazine</h2>
+            <p>Get the latest articles delivered straight to your inbox.</p>
+            <form>
+                <input type="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Daily Times. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
